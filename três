@@ -1,0 +1,51 @@
+package princiFib;
+
+import java.util.Scanner;
+
+public class tres {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner(System.in);
+		
+		int dias=sc.nextInt();
+
+				for(int i=1;i<=dias;i++) {
+					System.out.println("Digite os valores diários:");
+			double v =sc.nextDouble();
+			
+			int z=(int) v;
+			int resul=z;
+			int resul[]=(int) z;
+			int maior= Integer.MIN_VALUE;
+			int menor=0;
+			int indice=-1;
+			
+			for(int i1=1;i1<=resul;i1++)
+				if(resul[i1]>maior){
+					maior=resul[i1];
+					indice=i1;
+					System.out.println(i1);
+					if(resul[i1]<menor){
+						menor=resul[i1];
+						indice=i1;
+						System.out.println(i1);
+					
+
+			}
+			
+			
+			
+			}
+		
+			sc.close();
+		
+
+		
+
+				}}}
+
+	
+
+
